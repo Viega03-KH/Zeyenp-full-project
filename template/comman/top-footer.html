@@ -1,0 +1,45 @@
+{% load static %}
+{% load i18n %}
+<section id="footer" class="footer-minimal no-margin-top bg-transparent">
+    <div class="footer-inner">
+        <div class="footer-container tt-wrap">
+            <div class="row">
+                <div class="col-md-6 col-md-push-6">
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="{% url 'home_page' %}">
+                            {% trans 'Home' %}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'news_page' %}">
+                            {% trans 'News' %}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'about_page' %}">
+                            {% trans 'About' %}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'contact_page' %}">
+                            {% trans 'Contact' %}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{% url 'gallery_page' %}">{% trans 'Gallery' %}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-md-pull-6">
+                    <div class="footer-copyright">
+                        <p>© Sepia 2025 / All rights reserved</p>
+                        <p>By: <a
+                                href="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium"
+                                target="_blank">Hardware and Software Services</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

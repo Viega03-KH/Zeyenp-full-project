@@ -1,0 +1,114 @@
+{% load i18n %}  
+<header id="header" class="header-transparent header-show-hide-on-scroll menu-align-right">
+    <div class="header-inner tt-wrap">
+        <nav class="tt-main-menu">
+            <div id="tt-m-menu-toggle-btn">
+                <span></span>
+            </div>
+            <div class="tt-menu-tools">
+                <ul>
+                    <li class="tt-dropdown-wrap tt-dropdown-master tt-dropdown-dark tt-dropdown-right tt-tools-lang">
+                        <a href="#0">{{ LANGUAGE_CODE|upper }}</a>
+                        <ul class="tt-dropdown">
+                            <li>
+                                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                    <input type="hidden" name="language" value="en">
+                                    <button type="submit">English</button>
+                                </form>
+                            </li>
+                            <li>
+                                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                    <input type="hidden" name="language" value="tr">
+                                    <button type="submit">Türkçe</button>
+                                </form>
+                            </li>
+                            <li>
+                                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                    <input type="hidden" name="language" value="uz">
+                                    <button type="submit">O‘zbekcha</button>
+                                </form>
+                            </li>
+                            <li>
+                                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                                    <input type="hidden" name="language" value="ru">
+                                    <button type="submit">Русский</button>
+                                </form>
+                            </li>
+                        </ul>
+                        
+                    </li>
+
+                    <li>
+                        {% include "components/btn.html" %}
+                    </li>
+                </ul>
+            </div>
+            <div class="tt-menu-collapse tt-submenu-dark">
+                <ul class="tt-menu-nav">
+                    <li>
+                        <a href="{% url 'home_page' %}">
+                        {% trans 'Home' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'news_page' %}">
+                        {% trans 'News' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'about_page' %}">
+                        {% trans 'About' %}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'contact_page' %}">
+                        {% trans 'Contact' %}
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</header>
+
+<style>
+    .tt-tools-lang {
+        font-size: 15px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .tt-tools-lang li {
+        padding: 0;
+        margin: 0;
+    }
+    .tt-tools-lang a {
+        width: 100%;      
+        height: 100%;  
+    }
+    
+    .tt-tools-lang form {
+        margin: 0;
+    }
+    
+    .tt-tools-lang form button {
+        background: none;
+        border: none;
+        padding: 4px 12px;
+        width: 100%;      
+        height: 100%;     
+        text-align: left; 
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+        display: block;  
+    }
+    
+    .tt-tools-lang li:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+</style>

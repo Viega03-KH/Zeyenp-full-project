@@ -1,0 +1,53 @@
+{% load static %}
+{% load i18n %}
+<div class="col-md-4 no-padding-left no-padding-right">
+    <div class="sidebar sidebar-right">
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div class="sidebar-widget sidebar-search">
+                    <h4 class="sidebar-heading">SEARCH</h4>
+                    <form id="blog-search-form" class="form-btn-inside" method="get" action="{% url 'news_page' %}">
+                        <div class="form-group no-margin">
+                            <input type="text" class="form-control" id="blog-search" name="q" value="{{ query }}">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-6">
+
+                <div class="sidebar-widget sidebar-categories">
+                    <h3 class="sidebar-heading">{% trans 'CATEGORIES' %}</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="?">All<span></span></a></li>
+                        {% for category_list in category_list %}
+                        <li><a href="?category={{ category_list.id }}">{{ category_list.name }}<span></span></a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-12 col-sm-6">
+
+                <div class="sidebar-widget sidebar-subscribe">
+                    <h3 class="sidebar-heading">{% trans 'SUBSCRIBE' %}</h3>
+                    {% comment %} <p class="small text-gray">{% trans 'Subscribe to our newsletter and stay updated on the latest news! Do not worry, we will not send spam.' %}</p> {% endcomment %}
+
+                    <!-- Begin subscribe form -->
+                    <form id="sidebar-subscribe-form">
+                        <div class="form-group no-margin">
+                            <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank"
+                                class="btn btn-primary btn-block btn-lg">{% trans 'SUBSCRIBE' %}</a>
+                        </div>
+                    </form>
+                    <!-- End subscribe form -->
+
+                </div>
+                <!-- End sidebar widget -->
+
+            </div>
+
+        </div>
+    </div>
+</div>

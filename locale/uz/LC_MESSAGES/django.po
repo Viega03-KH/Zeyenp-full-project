@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-24 15:52+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\template\comman\header.html:49 .\template\comman\top-footer.html:11
+msgid "Home"
+msgstr "Bosh sahifa"
+
+msgid "News"
+msgstr "Yangiliklar"
+
+msgid "About"
+msgstr "Biz haqimizda"
+
+msgid "Contact"
+msgstr "Aloqa"
+
+msgid "Gallery"
+msgstr "Galereya"
+
+msgid "Our Gallery"
+msgstr "Bizning Galereya"
+
+msgid "GALLERY"
+msgstr "GALEREYA"
+
+msgid "BLOGS"
+msgstr "BLOG"
+
+msgid "CATEGORIES"
+msgstr "KATEGORIYALAR"
+
+msgid "SUBSCRIBE"
+msgstr "OBUNA BO'LISH"
+
+msgid "ABOUT US ZEYNEP"
+msgstr "ZEYNEP HAQIDA"
+
+msgid ""
+"I am an artist and photographer. ..."
+msgstr ""
+"Men rassom va fotografman. ... "
+"Bizning maqsadimiz mijozlarimizga yuqori darajadagi xizmat ko‘rsatish va to‘qimachilikda mukammallikka intilishdir. "
+"Asosiy maqsadimiz – barqaror va atrof-muhitga do‘stona yechimlar bilan Markaziy Osiyo va butun dunyoda tanilgan kompaniya bo‘lish."
+
+msgid "Our gallery"
+msgstr "Bizning galereya"
+
+msgid "Zeynep all collection"
+msgstr "Zeynep barcha kolleksiyalari"
+
+msgid "Gallery pags"
+msgstr "Galereya sahifalari"
+
+msgid "Contact Us"
+msgstr "Biz bilan bog‘laning"
+
+msgid "Address: 6 Abusahiy Marjon, Tashkent"
+msgstr "Manzil: 6 Abusahiy Marjon, Toshkent"
+
+msgid "Phone: +998 90-016-04-01"
+msgstr "Telefon: +998 90-016-04-01"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Drop Me a Line"
+msgstr "Xabar qoldiring"
+
+msgid "All fields are required!"
+msgstr "Barcha maydonlar to‘ldirilishi shart!"
+
+msgid "ZEYNEP CUSTOMER GROUP"
+msgstr "ZEYNEP MIJOZLAR GURUHI"
+
+msgid "OUR NEWS"
+msgstr "YANGILIKLARIMIZ"
+
+msgid "Read More"
+msgstr "Batafsil o‘qish"
+
+msgid "First"
+msgstr "Birinchi"
+
+msgid "Prev"
+msgstr "Oldingi"
+
+msgid "Next"
+msgstr "Keyingi"
+
+msgid "Last"
+msgstr "Oxirgi"
+
+msgid "Zeynep autumn winter 2025 collection"
+msgstr "Zeynep 2025 kuz-qish kolleksiyasi"
+
+msgid "View all Collections"
+msgstr "Barcha kolleksiyalarni ko‘rish"

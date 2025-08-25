@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-24 15:52+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\template\comman\header.html:49 .\template\comman\top-footer.html:11
+msgid "Home"
+msgstr "Ana Sayfa"
+
+msgid "News"
+msgstr "Haberler"
+
+msgid "About"
+msgstr "Hakkımızda"
+
+msgid "Contact"
+msgstr "İletişim"
+
+msgid "Gallery"
+msgstr "Galeri"
+
+msgid "Our Gallery"
+msgstr "Galerimiz"
+
+msgid "GALLERY"
+msgstr "GALERİ"
+
+msgid "BLOGS"
+msgstr "BLOG"
+
+msgid "CATEGORIES"
+msgstr "KATEGORİLER"
+
+msgid "SUBSCRIBE"
+msgstr "ABONE OL"
+
+msgid "ABOUT US ZEYNEP"
+msgstr "ZEYNEP HAKKINDA"
+
+msgid ""
+"I am an artist and photographer. ..."
+msgstr ""
+"Ben bir sanatçı ve fotoğrafçıyım. ... "
+"Misyonumuz müşterilerimize en yüksek seviyede hizmet sunmak ve tekstilde mükemmelliği teşvik etmektir. "
+"Hedefimiz sürdürülebilir ve çevre dostu çözümlerle Orta Asya’da ve dünyada tanınmış bir şirket olmaktır."
+
+msgid "Our gallery"
+msgstr "Galerimiz"
+
+msgid "Zeynep all collection"
+msgstr "Zeynep tüm koleksiyonları"
+
+msgid "Gallery pags"
+msgstr "Galeri sayfaları"
+
+msgid "Contact Us"
+msgstr "Bizimle İletişime Geçin"
+
+msgid "Address: 6 Abusahiy Marjon, Tashkent"
+msgstr "Adres: 6 Abusahiy Marjon, Taşkent"
+
+msgid "Phone: +998 90-016-04-01"
+msgstr "Telefon: +998 90-016-04-01"
+
+msgid "Email:"
+msgstr "E-posta:"
+
+msgid "Drop Me a Line"
+msgstr "Mesaj Bırakın"
+
+msgid "All fields are required!"
+msgstr "Tüm alanlar gereklidir!"
+
+msgid "ZEYNEP CUSTOMER GROUP"
+msgstr "ZEYNEP MÜŞTERİ GRUBU"
+
+msgid "OUR NEWS"
+msgstr "HABERLERİMİZ"
+
+msgid "Read More"
+msgstr "Devamını Oku"
+
+msgid "First"
+msgstr "İlk"
+
+msgid "Prev"
+msgstr "Önceki"
+
+msgid "Next"
+msgstr "Sonraki"
+
+msgid "Last"
+msgstr "Son"
+
+msgid "Zeynep autumn winter 2025 collection"
+msgstr "Zeynep 2025 sonbahar kış koleksiyonu"
+
+msgid "View all Collections"
+msgstr "Tüm Koleksiyonları Gör"

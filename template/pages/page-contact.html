@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}Contact{% endblock %}
+
+{% block content %}{% load static %}
+<div id="body-content">
+    <section id="contact-section">
+        <div class="contact-section-inner tt-wrap">
+            <div class="split-box">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="row-lg-height full-height-vh">
+                            <div class="col-lg-6 col-lg-height col-lg-middle bg-image"
+                                style="background-image: url('{% static '/assets/img/misc/contact-bg.jpg' %}'); background-position: 50% 50%;">
+                                <div class="cover"></div>
+                                <div class="split-box-content text-left no-padding-left no-padding-right">
+                                    <div class="contact-info-wrap">
+                                        <div class="tt-heading">
+                                            <div class="tt-heading-inner">
+                                                <h1 class="tt-heading-title">{% trans 'Contact Us' %}</h1>
+                                                <hr class="hr-short">
+                                            </div>
+                                        </div>
+                                        <div class="contact-info">
+                                            <p>{% trans 'Address: 6 Abusahiy Marjon, Tashkent' %}</p>
+                                            <p>{% trans 'Phone: +998 90-016-04-01' %}</p>
+                                            <p>{% trans 'Email:' %} <a href="mailto:zeynep@email.com"
+                                                    target="_blank">zeynep@email.com</a></p>
+                                        </div>
+                                        <div class="social-buttons margin-top-20">
+                                            <ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank"
+                                                            class="btn btn-social-min btn-default"
+                                                            title="Message me on Telegram" target="_blank">
+                                                            <i class="fab fa-telegram-plane"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank"
+                                                            class="btn btn-social-min btn-default"
+                                                            title="Message me on Telegram" target="_blank">
+                                                            <i class="fab fa-telegram-plane"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.instagram.com/zeynep_triko"
+                                                            class="btn btn-social-min btn-default"
+                                                            title="Follow me on Instagram" target="_blank">
+                                                            <i class="fab fa-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="contact.html"
+                                                            class="btn btn-social-min btn-default"
+                                                            title="Drop me a line" target="_blank"><i
+                                                                class="fas fa-phone-alt"></i></a></li>
+                                                </ul>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-lg-height col-lg-middle no-padding">
+                                <div class="split-box-content">
+                                    <form method="post" action='{% url "contact_page" %}'>
+                                        {% csrf_token %}
+                                        <div class="contact-form-inner text-left">
+                                            <div class="contact-form-info">
+                                                <div class="tt-heading">
+                                                    <div class="tt-heading-inner">
+                                                        <h1 class="tt-heading-title">{% trans 'Drop Me a Line' %}</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="name"
+                                                            placeholder="Your Name" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" name="email"
+                                                            placeholder="Your Email" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" name="subject"
+                                                            placeholder="Subject" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <textarea class="form-control" name="message" rows="4"
+                                                            placeholder="Your Message" required=""></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="small text-gray"><em>* {% trans 'All fields are required!' %}</em></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <button type="submit" class="btn btn-primary btn-lg margin-top-40">{% trans 'Send Message' %}</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% include "comman/top-footer.html"%}
+{% endblock %}

@@ -1,0 +1,81 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>
+    {% block title %}{% endblock title %}
+    </title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Responsive Photography HTML5 Website Template">
+    <meta name="keywords"
+        content="HTML5, CSS3, Bootsrtrap, Responsive, Photography, Portfolio, Template, Theme, Website, Themetorium" />
+    <meta name="author" content="themetorium.net">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'zeynep-resurs/logo.png' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'zeynep-resurs/logo.png' %}" type="image/x-icon">
+    <!-- Google Analytics (https://analytics.google.com/) -->
+    <!-- Add your Google Analytics code here -->
+    <!-- Google fonts (https://www.google.com/fonts) -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Global font -->
+    <!-- Bootstrap CSS (http://getbootstrap.com) -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}">
+    <!-- bootstrap CSS (http://getbootstrap.com) -->
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/animsition/css/animsition.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendor/fontawesome/css/fontawesome-all.min.css' %}">
+    <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/lightgallery/css/lightgallery.min.css' %}">
+    <!-- lightGallery CSS (http://sachinchoolur.github.io/lightGallery) -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/owl-carousel/css/owl.carousel.min.css' %}">
+    <!-- Owl Carousel CSS (https://owlcarousel2.github.io/OwlCarousel2/) -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/owl-carousel/css/owl.theme.default.min.css' %}">
+    <!-- Owl Carousel CSS (https://owlcarousel2.github.io/OwlCarousel2/) -->
+    <link rel="stylesheet" href="{% static 'assets/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css' %}">
+    <!-- YTPlayer CSS (more info: https://github.com/pupunzi/jquery.mb.YTPlayer) -->
+    <!-- Template master CSS -->
+    <link rel="stylesheet" href='{% static "assets/css/helper.css" %}'>
+    <link rel="stylesheet" href='{% static "assets/css/theme.css" %}'>
+    <link rel="stylesheet" href='{% static "assets/css/dark-style.css" %}'>
+    <link rel="stylesheet" href='{% static "assets/css/color-skins/skin-brown.css" %}'>
+</head>
+
+
+<body id="body" class="animsition tt-wrap">
+
+
+{% include "comman/header.html"%}
+{% block content %}{% endblock content %}
+{% comment %} {% include "comman/footer.html"%} {% endcomment %}
+
+
+
+
+
+
+
+    <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+    <!-- Bootstrap -->
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+    <!-- Libs and Plugins -->
+    <script src="{% static 'assets/vendor/animsition/js/animsition.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/owl-carousel/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/jquery.mousewheel.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/lightgallery/js/lightgallery-all.min.js' %}"></script>
+    <!-- Theme Master JS -->
+    <script src="{% static 'assets/js/theme.js' %}"></script>
+    
+
+</body>
+
+</html>

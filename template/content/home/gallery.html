@@ -1,0 +1,31 @@
+{% load static %}
+{% load i18n %}
+<section id="latest-work-section" class="tt-heading tt-heading-lg padding-on text-start">
+    <div class="tt-heading-inner tt-wrap">
+        <h1 class="tt-heading-title">{% trans 'GALLERY' %}</h1>
+        {% comment %} <div class="tt-heading-subtitle">KARDIGAN, TROYKA &amp; TROYKA, DVOYKA</div> {% endcomment %}
+        <hr class="hr-short">
+    </div>
+    <div class="latest-work-inner">
+        <div class="project-carousel">
+            <div class="owl-carousel cc-height-4 dots-right" data-items="4" data-margin="25"
+                data-loop="true" data-nav="true" data-nav-speed="200" data-autoplay="true" data-autoplay-timeout="2000"
+                data-autoplay-speed="2000" data-autoplay-hover-pause="false" data-tablet-landscape="3"
+                data-tablet-portrait="2" data-mobile-landscape="1" data-mobile-portrait="1">
+
+                {% for gallery in gallery_list %}
+                <a href="gallery-single-grid.html" class="cc-item cc-caption-on">
+                    <div class="cc-image"
+                        style="background-image: url('{{ gallery.image.url }}'); background-size: cover; background-position: 50% 50%;">
+                    </div>
+                    <div class="cc-caption top-left max-width-400 "> 
+                        <!-- <h2 class="cc-title">{{ gallery.title }}</h2>
+                        <div class="cc-category"><span>{{ gallery.category }}</span></div> -->
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}News{% endblock %}
+{% block content %}
+<div id="body-content">
+
+    <section id="page-header" class="ph-xlg">
+        <div class="page-header-image parallax-bg-3 bg-image"
+            style="background-image: url('{% static 'assets/img/pattern/page-header-bg-7.jpg' %}')">
+            <div class="cover bg-transparent-5-dark"></div>
+        </div>
+        <div class="page-header-inner tt-wrap">
+            <div class="page-header-caption parallax-4 fade-out-scroll-4">
+                <h1 class="page-header-title">{% trans 'Zeynep autumn winter 2025 collection' %}</h1>
+                <div class="page-header-category"><a>{% trans 'Gallery pags' %}</a></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery-single-section">
+        <div class="isotope-wrap tt-wrap">
+            <div class="isotope col-3 gutter-3">
+                <div id="gallery" class="isotope-items-wrap gli-alter-5 lightgallery gsi-color">
+                    <div class="grid-sizer"></div>
+                    {% for gallery in gallery_list %}
+                    <div class="isotope-item">
+                        <a href="{{ gallery.image.url }}" class="gallery-single-item lg-trigger"
+                            data-exthumbnail="{{ gallery.image.url }}">
+                            <img src="{{ gallery.image.url }}" class="gs-item-image" alt="">
+                            <div class="gs-item-icon"><i class="fas fa-search"></i></div>
+                        </a>
+                        <div class="gl-item-info">
+                            <div class="gl-item-caption">
+                                <span class="gl-item-category"><a href="albums-archive-fluid.html"></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="isotope-pagination bg-main">
+            <div class="iso-load-more">
+                <a class="btn btn-white-bordered btn-lg" href="{% url 'collection_page' %}">{% trans 'View all Collections' %}<i class="fas fa-refresh"></i></a>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% include "comman/top-footer.html"%}
+{% endblock content %}

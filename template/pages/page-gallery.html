@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}Galereya{% endblock %}
+
+{% block content %}{% load static %}
+<div style="margin-top:20px;" id="body-content">
+
+    <section id="gallery-single-section" class="gallery-single-carousel gs-carousel-center">
+        <div class="page-background"></div>
+        <div class="gallery-single-carousel-inner tt-wrap">
+            <div class="gs-carousel-wrap">
+                <div class="owl-carousel lightgallery cc-height-full owl-mousewheel nav-light cc-hover-light"
+                    data-items="3" data-center="true" data-margin="10" data-autoplay="true" data-autoplay-timeout="10000"
+                    data-autoplay-speed="2000" data-autowidth="true" data-loop="true" data-nav="true"
+                    data-nav-speed="2000" data-dots="false">
+
+
+                    {% for gallery in gallery_list %}
+                    <a href="{{ gallery.image.url }}" class="cc-item lg-trigger"
+                        data-exthumbnail="{{ gallery.image.url }}">
+                        <img class="cc-image cc-auto-width-img" src="{{ gallery.image.url }}" alt="">
+                        <div class="cc-image cc-auto-width-img-bg bg-image" style="background-image: url('{{ gallery.image.url }}');">
+                        </div>
+
+                        <div class="gsi-image-caption">{{ gallery.category }}</div>
+                    </a>
+                    {% endfor %}
+
+                </div>
+                <ul class="gallery-meta">
+                    <li>
+                        <a href="{% url 'collection_page' %}" class="gm-go-back" title="Back to albums">
+                            <i class="fas fa-th"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="content-modal-trigger">
+                            <a href="#0" class="content-modal-icon" title="Info" data-toggle="modal"
+                                data-target="#modal-78431234">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </div>
+                        <div id="modal-78431234" class="modal modal-left fade" tabindex="-1" role="dialog"
+                            aria-hidden="false">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
+                                                class="tt-close-btn"></i></button>
+                                        <h4 class="modal-title"></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-body-image-1 bg-image"
+                                            style="background-image: url('{% static 'zeynep-resurs/491443883_979609837650612_739915575577190766_n.jpg' %}'); background-position: 50% 50%;">
+                                        </div>
+                                        <div class="modal-body-content">
+                                            <div class="tt-heading tt-heading-lg">
+                                                <div class="tt-heading-inner">
+                                                    <h1 class="tt-heading-title" style="text-align: center">{% trans 'ZEYNEP CUSTOMER GROUP' %}</h1>
+                                                </div>
+                                            </div>
+                                            <div class="margin-top-20">
+                                            </div>
+                                            <div class="modal-body-content">
+                                                <div class="modal-share">
+                                                    <div class="social-buttons">
+                                                        <ul>
+                                                            <li>
+                                                                <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank"
+                                                                    class="btn btn-social-min btn-default"
+                                                                    title="Message me on Telegram" target="_blank">
+                                                                    <i class="fab fa-telegram-plane"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank"
+                                                                    class="btn btn-social-min btn-default"
+                                                                    title="Message me on Telegram" target="_blank">
+                                                                    <i class="fab fa-telegram-plane"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.instagram.com/zeynep_triko"
+                                                                    class="btn btn-social-min btn-default"
+                                                                    title="Follow me on Instagram" target="_blank">
+                                                                    <i class="fab fa-instagram"></i>
+                                                                </a>
+                                                            </li>
+                                
+                                                            <li><a href="contact.html"
+                                                                class="btn btn-social-min btn-default"
+                                                                title="Drop me a line" target="_blank"><i class="fas fa-phone-alt"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href='https://t.me/+ADF5qyGTBck0YTU6' target="_blank" class="btn btn-primary btn-block btn-lg">{% trans 'SUBSCRIBE' %}</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        {% trans "© Sepia 2025 / All rights reserved
+                                        By: Hardware and Software Services" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% include "comman/top-footer.html"%}
+{% endblock %}

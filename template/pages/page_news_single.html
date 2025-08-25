@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}News{% endblock %}
+{% block content %}{% load static %}
+<div style="margin-top:200px;" id="body-content">
+
+    <section id="blog-list-section" class="blog-list-grid">
+        <div class="blog-list-inner tt-wrap">
+            <div class="row no-margin">
+                <div class="col-md-8 no-padding-left no-padding-right">
+                    <article class="blog-single-post lightgallery">
+                        <a href="{{ news_list.image.url }}" class="blog-single-featured-image lg-trigger" data-exthumbnail="{{ news_list.image.url }}">
+                            <img src="{{ news_list.image.url }}">
+                        </a>
+                        <div class="blog-single-post-heading">
+                            <h1 class="blog-single-post-title">{{ news_list.title }}</h1>
+                            <div class="blog-single-post-category"><a>{{news_list.category}}</a></div>
+                        </div>
+                        <div class="blog-single-post-inner">
+                            <div class="blog-single-attributes">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <div class="blog-single-meta-wrap">
+                                            <a class="author-avatar pull-left bg-image" style="background-image: url('{% static 'zeynep-resurs/491443883_979609837650612_739915575577190766_n.jpg' %}')"></a>
+                                            <div class="blog-single-meta">
+                                                <div class="article-time-cat">
+                                                    <span class="article-time">{{ news_list.created_at }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="post-content">
+                                <p class="lead" style="text-align:justify">{{ news_list.subtitle|safe|striptags }}</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% include "content/news/news-menu.html"%}
+            </div>
+        </div>
+    </section>
+</div>
+{% include "comman/top-footer.html"%}
+{% endblock content %}

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}Galereya{% endblock %}
+{% block content %}
+<div id="body-content">
+    <section id="page-header" class="ph-xlg">
+        <div class="page-header-image parallax-bg-3 bg-image"
+            style="background-image: url('{% static 'assets/img/pattern/page-header-bg-7.jpg' %}')">
+            <div class="cover bg-transparent-5-dark"></div>
+        </div>
+        <div class="page-header-inner tt-wrap">
+            <div class="page-header-caption parallax-4 fade-out-scroll-4">
+                <h1 class="page-header-title">{% trans 'Zeynep all collection' %}</h1>
+                <div class="page-header-category"><a href="albums-archive-fluid-2.html">{% trans 'Gallery pags' %}</a></div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery-list-section">
+        <div class="isotope-wrap tt-wrap">
+            <div class="isotope col-1 gutter-3">
+                <div class="isotope-top-content fi-to-button-on">
+
+                </div>
+                <div class="isotope-items-wrap gli-alter-5" style="position: relative; height: 3198.34px;">
+                    <div class="grid-sizer"></div>
+
+                    {% for collection_list in collection_list %}
+                    <div class="isotope-item black-and-white iso-height-1"
+                        style="position: absolute; left: 0px; top: 0px;">
+                        <div class="gallery-list-item">
+                            <div class="gl-item-image-wrap">
+                                <a href="{% url 'single_page' collection_list.id %}" class="gl-item-image-inner">
+                                    <div class="gl-item-image bg-image"
+                                        style="background-image: url('{{ collection_list.image.url }}'); background-position: 50% 50%">
+                                    </div>
+
+                                    <span class="gl-item-image-zoom"></span>
+                                </a>
+                            </div>
+                            <div class="gl-item-info">
+                                <div class="gl-item-caption">
+                                    <h2 class="gl-item-title "><a href="{% url 'single_page' collection_list.id %}">{{ collection_list.name }}</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div> 
+    </section>
+</div>
+{% include "comman/top-footer.html"%}
+{% endblock content %}
