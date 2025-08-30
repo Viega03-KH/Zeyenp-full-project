@@ -1,113 +1,190 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-24 15:52+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-#: .\template\comman\header.html:49 .\template\comman\top-footer.html:11
+"Language: uz\n"
+
+#: .\template\comman\header.html:50 .\template\comman\top-footer.html:11
 msgid "Home"
 msgstr "Bosh sahifa"
 
+#: .\template\comman\header.html:55 .\template\comman\top-footer.html:16
 msgid "News"
 msgstr "Yangiliklar"
 
+#: .\template\comman\header.html:60 .\template\comman\top-footer.html:21
 msgid "About"
-msgstr "Biz haqimizda"
+msgstr "Haqida"
 
+#: .\template\comman\header.html:65 .\template\comman\top-footer.html:26
 msgid "Contact"
 msgstr "Aloqa"
 
+#: .\template\comman\top-footer.html:30
 msgid "Gallery"
 msgstr "Galereya"
 
+#: .\template\components\btn.html:2
 msgid "Our Gallery"
-msgstr "Bizning Galereya"
+msgstr "Bizning galereyamiz"
 
+#: .\template\content\home\gallery.html:5
 msgid "GALLERY"
 msgstr "GALEREYA"
 
+#: .\template\content\home\latest-news.html:5
 msgid "BLOGS"
 msgstr "BLOG"
 
+#: .\template\content\news\news-menu.html:21
 msgid "CATEGORIES"
 msgstr "KATEGORIYALAR"
 
+#: .\template\content\news\news-menu.html:34
+#: .\template\content\news\news-menu.html:42
+#: .\template\pages\page-gallery.html:95
 msgid "SUBSCRIBE"
-msgstr "OBUNA BO'LISH"
+msgstr "Obuna bo‘lish"
 
+#: .\template\pages\page-about.html:33
 msgid "ABOUT US ZEYNEP"
-msgstr "ZEYNEP HAQIDA"
+msgstr "BIZ HAQIMIZDA ZEYNEP"
 
+#: .\template\pages\page-about.html:41
 msgid ""
-"I am an artist and photographer. ..."
+"\n"
+"                                            ZEYNEP Triko has been serving as "
+"a leading company in the textile industry for more than 7 years. \n"
+"                                            Our organization is renowned for "
+"its outstanding expertise, innovative designs, and dedication to meeting "
+"customer needs. \n"
+"                                            To help you get to know ZEYNEP "
+"Triko better, we present the following details. \n"
+"                                            "
 msgstr ""
-"Men rassom va fotografman. ... "
-"Bizning maqsadimiz mijozlarimizga yuqori darajadagi xizmat ko‘rsatish va to‘qimachilikda mukammallikka intilishdir. "
-"Asosiy maqsadimiz – barqaror va atrof-muhitga do‘stona yechimlar bilan Markaziy Osiyo va butun dunyoda tanilgan kompaniya bo‘lish."
+"\n"
+"ZEYNEP Triko 7 yildan ortiq vaqt davomida to‘qimachilik sohasida yetakchi "
+"kompaniya sifatida faoliyat yuritib kelmoqda.\n"
+"Tashkilotimiz yuqori tajribasi, innovatsion dizaynlari va mijozlar ehtiyojini "
+"qondirishdagi sadoqati bilan mashhur.\n"
+"Siz ZEYNEP Trikoni yanada yaxshiroq bilib olishingiz uchun quyidagi ma’lumotlarni taqdim etamiz.\n"
 
+#: .\template\pages\page-about.html:49
+msgid ""
+"\n"
+"                                            ZEYNEP Triko was founded in 2016 "
+"by a visionary and experienced entrepreneur. \n"
+"                                            Since our establishment, we have "
+"successfully implemented countless projects and have grown into one of the "
+"most significant companies in the industry. \n"
+"                                            We take pride in our history, "
+"quality, and expertise. \n"
+"                                            "
+msgstr ""
+"\n"
+"ZEYNEP Triko 2016-yilda tajribali va kelajakni ko‘ra oladigan tadbirkor tomonidan tashkil etilgan.\n"
+"Tashkil etilgandan beri biz ko‘plab loyihalarni muvaffaqiyatli amalga oshirdik va sohada yetakchi kompaniyalardan biriga aylandik.\n"
+"Biz o‘z tariximiz, sifatimiz va tajribamizdan faxrlanamiz.\n"
+
+#: .\template\pages\page-about.html:57
+msgid ""
+"\n"
+"                                            Our mission is to provide our "
+"customers with the highest level of service and to promote excellence in "
+"textile products. \n"
+"                                            Our goal is to become a globally "
+"recognized company in Central Asia and beyond by offering sustainable and "
+"eco-friendly solutions. \n"
+"                                            "
+msgstr ""
+"\n"
+"Bizning vazifamiz – mijozlarimizga eng yuqori darajada xizmat ko‘rsatish va to‘qimachilik mahsulotlarida mukammallikni targ‘ib qilish.\n"
+"Bizning maqsadimiz – barqaror va ekologik toza yechimlarni taklif etish orqali Markaziy Osiyo va undan tashqarida global miqyosda tan olingan kompaniyaga aylanish.\n"
+
+#: .\template\pages\page-about.html:64
+msgid ""
+"\n"
+"                                            ZEYNEP Triko, with its 60 "
+"electronic knitting machines, 60 sewing machines, and over 100 employees, \n"
+"                                            offers customers a wide range of "
+"high-quality products.\n"
+"                                            "
+msgstr ""
+"\n"
+"ZEYNEP Triko 60 ta elektron trikotaj mashinasi, 60 ta tikuv mashinasi va 100 dan ortiq xodimlari bilan mijozlarga keng turdagi yuqori sifatli mahsulotlarni taqdim etadi.\n"
+
+#: .\template\pages\page-about.html:73
 msgid "Our gallery"
 msgstr "Bizning galereya"
 
+#: .\template\pages\page-collection.html:14
 msgid "Zeynep all collection"
-msgstr "Zeynep barcha kolleksiyalari"
+msgstr "Zeynep barcha kolleksiyasi"
 
+#: .\template\pages\page-collection.html:15
+#: .\template\pages\page-single.html:16
 msgid "Gallery pags"
-msgstr "Galereya sahifalari"
+msgstr "Galereya sahifasi"
 
+#: .\template\pages\page-contact.html:20
 msgid "Contact Us"
 msgstr "Biz bilan bog‘laning"
 
+#: .\template\pages\page-contact.html:25
 msgid "Address: 6 Abusahiy Marjon, Tashkent"
-msgstr "Manzil: 6 Abusahiy Marjon, Toshkent"
+msgstr "Manzil: Toshkent, Abusahiy Marjon 6"
 
+#: .\template\pages\page-contact.html:26
 msgid "Phone: +998 90-016-04-01"
 msgstr "Telefon: +998 90-016-04-01"
 
+#: .\template\pages\page-contact.html:27
 msgid "Email:"
 msgstr "Email:"
 
+#: .\template\pages\page-contact.html:72
 msgid "Drop Me a Line"
 msgstr "Xabar qoldiring"
 
+#: .\template\pages\page-contact.html:106
 msgid "All fields are required!"
 msgstr "Barcha maydonlar to‘ldirilishi shart!"
 
+#: .\template\pages\page-contact.html:110
+msgid "Send Message"
+msgstr "Xabar yuborish"
+
+#: .\template\pages\page-gallery.html:59
 msgid "ZEYNEP CUSTOMER GROUP"
 msgstr "ZEYNEP MIJOZLAR GURUHI"
 
+#: .\template\pages\page-news.html:14
 msgid "OUR NEWS"
-msgstr "YANGILIKLARIMIZ"
+msgstr "BIZNING YANGILIKLAR"
 
+#: .\template\pages\page-news.html:33
 msgid "Read More"
 msgstr "Batafsil o‘qish"
 
+#: .\template\pages\page-news.html:46 .\template\pages\page-news.html:53
 msgid "First"
 msgstr "Birinchi"
 
+#: .\template\pages\page-news.html:50 .\template\pages\page-news.html:54
 msgid "Prev"
 msgstr "Oldingi"
 
+#: .\template\pages\page-news.html:69 .\template\pages\page-news.html:77
 msgid "Next"
 msgstr "Keyingi"
 
+#: .\template\pages\page-news.html:73 .\template\pages\page-news.html:78
 msgid "Last"
 msgstr "Oxirgi"
 
+#: .\template\pages\page-single.html:15
 msgid "Zeynep autumn winter 2025 collection"
 msgstr "Zeynep 2025 kuz-qish kolleksiyasi"
 
+#: .\template\pages\page-single.html:45
 msgid "View all Collections"
 msgstr "Barcha kolleksiyalarni ko‘rish"

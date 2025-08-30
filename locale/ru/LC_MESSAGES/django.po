@@ -1,37 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-24 15:52+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
-#: .\template\comman\header.html:49 .\template\comman\top-footer.html:11
+"Language: ru\n"
+
+#: .\template\comman\header.html:50 .\template\comman\top-footer.html:11
 msgid "Home"
 msgstr "Главная"
 
-#: .\template\comman\header.html:54 .\template\comman\top-footer.html:16
+#: .\template\comman\header.html:55 .\template\comman\top-footer.html:16
 msgid "News"
 msgstr "Новости"
 
-#: .\template\comman\header.html:59 .\template\comman\top-footer.html:21
+#: .\template\comman\header.html:60 .\template\comman\top-footer.html:21
 msgid "About"
 msgstr "О нас"
 
-#: .\template\comman\header.html:64 .\template\comman\top-footer.html:26
+#: .\template\comman\header.html:65 .\template\comman\top-footer.html:26
 msgid "Contact"
 msgstr "Контакты"
 
@@ -59,7 +43,7 @@ msgstr "КАТЕГОРИИ"
 #: .\template\content\news\news-menu.html:42
 #: .\template\pages\page-gallery.html:95
 msgid "SUBSCRIBE"
-msgstr "ПОДПИСАТЬСЯ"
+msgstr "Подписаться"
 
 #: .\template\pages\page-about.html:33
 msgid "ABOUT US ZEYNEP"
@@ -68,30 +52,65 @@ msgstr "О НАС ZEYNEP"
 #: .\template\pages\page-about.html:41
 msgid ""
 "\n"
-"                                            I am an artist and photographer. "
-"Sollicitudin diam vitae, amet lacus donec eu, donec vulputate duis nullam "
-"nulla, suscipit nulla orci, ornare maecenas eget gravida. Curae sollicitudin "
-"lobortis phasellus. Fusce sapien, metus mi et libero enim sed lorem.\n"
-"                                            Our mission is to our customers "
-"high level of service and in textiles is to promote excellence. Ours our\n"
-"                goal is sustainable and environmentally friendly Central "
-"Asia and the whole with solutions to become a\n"
-"                world-renowned company\n"
+"                                            ZEYNEP Triko has been serving as "
+"a leading company in the textile industry for more than 7 years. \n"
+"                                            Our organization is renowned for "
+"its outstanding expertise, innovative designs, and dedication to meeting "
+"customer needs. \n"
+"                                            To help you get to know ZEYNEP "
+"Triko better, we present the following details. \n"
 "                                            "
 msgstr ""
 "\n"
-"                                            Я художник и фотограф. "
-"Sollicitudin diam vitae, amet lacus donec eu, donec vulputate duis nullam "
-"nulla, suscipit nulla orci, ornare maecenas eget gravida. Curae sollicitudin "
-"lobortis phasellus. Fusce sapien, metus mi et libero enim sed lorem.\n"
-"                                            Наша миссия — предоставлять нашим клиентам "
-"высокий уровень обслуживания и продвигать превосходство в текстиле. Наша\n"
-"                цель — устойчивое и экологически чистое развитие Центральной "
-"Азии и всего мира с решениями, которые помогут стать\n"
-"                всемирно известной компанией\n"
-"                                            "
+"ZEYNEP Triko более 7 лет является ведущей компанией в текстильной отрасли.\n"
+"Наша организация известна высоким профессионализмом, инновационными дизайнами и стремлением удовлетворять потребности клиентов.\n"
+"Чтобы познакомить вас с ZEYNEP Triko лучше, мы представляем следующие детали.\n"
 
-#: .\template\pages\page-about.html:50
+#: .\template\pages\page-about.html:49
+msgid ""
+"\n"
+"                                            ZEYNEP Triko was founded in 2016 "
+"by a visionary and experienced entrepreneur. \n"
+"                                            Since our establishment, we have "
+"successfully implemented countless projects and have grown into one of the "
+"most significant companies in the industry. \n"
+"                                            We take pride in our history, "
+"quality, and expertise. \n"
+"                                            "
+msgstr ""
+"\n"
+"ZEYNEP Triko была основана в 2016 году дальновидным и опытным предпринимателем.\n"
+"С момента основания мы успешно реализовали множество проектов и выросли в одну из самых значимых компаний в отрасли.\n"
+"Мы гордимся нашей историей, качеством и опытом.\n"
+
+#: .\template\pages\page-about.html:57
+msgid ""
+"\n"
+"                                            Our mission is to provide our "
+"customers with the highest level of service and to promote excellence in "
+"textile products. \n"
+"                                            Our goal is to become a globally "
+"recognized company in Central Asia and beyond by offering sustainable and "
+"eco-friendly solutions. \n"
+"                                            "
+msgstr ""
+"\n"
+"Наша миссия — предоставлять клиентам услуги на самом высоком уровне и продвигать совершенство в текстильных изделиях.\n"
+"Наша цель — стать глобально признанной компанией в Центральной Азии и за её пределами, предлагая устойчивые и экологически чистые решения.\n"
+
+#: .\template\pages\page-about.html:64
+msgid ""
+"\n"
+"                                            ZEYNEP Triko, with its 60 "
+"electronic knitting machines, 60 sewing machines, and over 100 employees, \n"
+"                                            offers customers a wide range of "
+"high-quality products.\n"
+"                                            "
+msgstr ""
+"\n"
+"ZEYNEP Triko, имея 60 электронных вязальных машин, 60 швейных машин и более 100 сотрудников, предлагает клиентам широкий ассортимент высококачественной продукции.\n"
+
+#: .\template\pages\page-about.html:73
 msgid "Our gallery"
 msgstr "Наша галерея"
 
@@ -110,7 +129,7 @@ msgstr "Свяжитесь с нами"
 
 #: .\template\pages\page-contact.html:25
 msgid "Address: 6 Abusahiy Marjon, Tashkent"
-msgstr "Адрес: ул. Абусахий Маржон, 6, Ташкент"
+msgstr "Адрес: Ташкент, Абусахий Маржон 6"
 
 #: .\template\pages\page-contact.html:26
 msgid "Phone: +998 90-016-04-01"
@@ -120,13 +139,17 @@ msgstr "Телефон: +998 90-016-04-01"
 msgid "Email:"
 msgstr "Эл. почта:"
 
-#: .\template\pages\page-contact.html:71
+#: .\template\pages\page-contact.html:72
 msgid "Drop Me a Line"
-msgstr "Напишите нам"
+msgstr "Оставьте сообщение"
 
-#: .\template\pages\page-contact.html:109
+#: .\template\pages\page-contact.html:106
 msgid "All fields are required!"
-msgstr "Все поля обязательны!"
+msgstr "Все поля обязательны для заполнения!"
+
+#: .\template\pages\page-contact.html:110
+msgid "Send Message"
+msgstr "Отправить сообщение"
 
 #: .\template\pages\page-gallery.html:59
 msgid "ZEYNEP CUSTOMER GROUP"
